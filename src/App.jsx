@@ -1,6 +1,7 @@
 import React from 'react';
+import RepositoryList from './components/RepositoryList';
 import './style/global.scss';
 
-export default function App(){
-    return <h1>Testando 123...</h1>
+export default function App() {
+    return <RepositoryList />;
 }
