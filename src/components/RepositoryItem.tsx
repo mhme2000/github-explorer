@@ -1,6 +1,11 @@
 import '../style/repositories.scss';
+import IRepository from '../types/IRepository';
 
-export default function RepositoryItem(props) {
+interface RepositoryItemProps {
+    repository : IRepository;
+}
+
+export default function RepositoryItem(props : RepositoryItemProps) {
     return (
         <li>
             <strong>{props.repository.name}</strong>
