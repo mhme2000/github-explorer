@@ -26,7 +26,8 @@ Github Explorer. Projeto voltado para busca de repositórios no github.
 - [x] Criar projeto do zero
 - [x] Configurar babel
 - [x] Configurar webpack
-- [ ] Adicionar componentes
+- [x] Configurar typescript
+- [x] Adicionar componentes
 
 ---
 
